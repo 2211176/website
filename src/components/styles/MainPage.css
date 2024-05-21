@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0,85,144);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .link:hover {
+    background-color: #0056b3;
+  }

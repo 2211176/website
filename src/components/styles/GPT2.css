@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .chatContainer {
+    position: relative;
+    height: 800px;
+    width: 700px;
+  }

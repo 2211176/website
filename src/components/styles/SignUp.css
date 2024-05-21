@@ -1,0 +1,44 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input {
+    width: calc(100% - 20px); /* Уменьшаем ширину input на 20px */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+  input[type="text"]::placeholder {
+    max-width: 80%; /* Указываем нужную ширину */
+    text-overflow: ellipsis; /* Добавляем многоточие в конце, если текст не помещается */
+  }

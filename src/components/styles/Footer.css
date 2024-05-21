@@ -1,0 +1,38 @@
+.block {
+    background-color: rgb(0,85,144);
+    color: aliceblue;
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+img {
+    margin: 0 10px;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+    height: 40px; /* Высота футера */
+}

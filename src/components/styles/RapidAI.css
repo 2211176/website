@@ -1,0 +1,25 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+  }
+  
+  .chat-input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .chat-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .chat-answer {
+    margin-top: 10px;
+    font-weight: bold;
+  }
